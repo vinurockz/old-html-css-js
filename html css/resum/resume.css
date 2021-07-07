@@ -1,0 +1,72 @@
+.firstsec{
+        border: 2px solid black;
+        height: 210px;
+}
+#space{
+    position: relative;
+    left: 15px;
+    top:2px;
+}
+.first{
+    width: 100%;
+}
+.firstsec h3{
+    position: relative;
+    top:40px;
+    left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firstsec h5{
+    position: relative;
+    top:35px;
+    left: 23px;
+    color: rgb(96, 99, 99);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second{
+    border: 2px solid black;
+}
+.secondsec{
+    border: 2px solid black;
+    height: 1000px;
+}
+
+.edu,.work,.skil,.detail,.hoby,.dicl{
+    background-color: rgba(163, 161, 161, 0.39);
+    text-align: center;
+}
+.prodetail ul li{
+    list-style: none;
+    text-align: center;
+    
+}
+ul li{
+    text-align: center;
+    list-style: none;
+}
+#spa{
+    position: relative;
+    left: 20px;
+}
+.lft{
+    position: relative;
+    left: 20px; 
+    top:150px;
+}
+.SIGN{
+    position: relative;
+    left: 380px;
+    top:104px;
+}
+.res{
+    position: relative;
+    top:-100px;
+    left: 60%;
+
+}
+#ress{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 50px;
+    text-decoration: underline;
+
+}

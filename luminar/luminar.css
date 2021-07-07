@@ -1,0 +1,100 @@
+.topsec{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(57, 7, 104);
+    margin: 0;
+    color:white;
+
+}
+.topfirst{
+    height:120px;
+    width: 100%;
+    color: chartreuse;
+    }
+.clr{
+    background-color: rgb(57, 7, 104);
+}
+
+
+
+.icons{
+    position: relative;
+    top:6px
+}
+.cont{
+    position: relative;
+    top:8px;
+    left:50px;
+}
+.mail h6{
+    position:relative;
+    top: 8px;
+    color: white;
+    display: inline-block;
+    justify-content: space-around;   
+}
+
+
+
+
+.logo{
+    width: 200px;
+    position: relative;
+    top:10px;
+    
+}
+.posmenu{
+    position: absolute;
+    right:50px;
+    top: 80px;   
+}
+.nav-item a{
+color:black;
+}
+.picssec{
+    height: 410px;
+    background-color: rgb(226, 192, 55);
+    width: 100%;
+}
+.picssec img{
+    height: 410px;
+    width: 100%;
+}
+.midsec{
+    width: 100%;
+    height:550px;
+    
+}
+.midsec h2{
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.midsec p{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    font-size: 18px;
+}
+.lastsec{
+    height: 100%;
+    width:100%;
+    float: left;
+}
+
+
+.lastsec img{
+    position: relative;
+    left:40px;
+}
+.lum{
+    color: darkslateblue;
+    float: left;
+    width: 120px;
+}
+
+
+.tec{
+    color: darkslateblue;
+    opacity: .5;
+}

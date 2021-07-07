@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+<script src="./books.js"></script>
+</head>
+<style>
+    table{
+        position: relative;
+        top: 50px;
+        left: 150px;
+    }
+    .wid tr td{
+        width: 200px;
+        background-color: rgb(243, 240, 73);
+        height: 50px;
+        text-align: center;
+        border: 2px solid black;
+        font-size: 18px;
+    }
+    .result{
+        color: red;
+    }
+    .main{
+        position: relative;
+        top:30px;
+        left: 100px;
+    }
+    #col{
+        height: 20px;
+        width:150px;
+        background-color: rgb(189, 194, 194);
+    }
+    button{
+        width: 150px;
+        height:35px;
+        background-color: rgb(241, 103, 23);
+        border-radius: 20px;
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <h1> <em> Book Details </em></h1>
+    <div class="main">
+    <label for="">BookName</label>
+    <input type="text" class="bkname" id="col">
+    <label for="">BookId</label>
+    <input type="text" class="id" id="col">
+    <label for="">Author</label>
+    <input type="text" class="athr" id="col">
+    <label for="">Price</label>
+    <input type="text" class="prz" id="col">
+    <button onclick="update()">Create</button>
+</div>
+    <table class="wid">
+        <tr>
+            <td>BookName</td>
+            <td>BookId</td>
+            <td>Author</td>
+            <td>Price</td>
+        </tr>
+        <tbody class="result">
+
+        </tbody>
+    </table>
+
+
+</body>
+</html>

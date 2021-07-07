@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tbl td{
+        width: 200px;
+    }
+</style>
+<body>
+    <h1>fetchusers</h1>
+    <table class="tbl">
+        <tr>
+            <td>userid</td>
+            <td>id</td>
+            <td>title</td>
+            <td>complete</td>
+
+        </tr>
+        <tbody class="result"></tbody>
+    </table>
+    
+</body>
+<script>
+    function display(datas){
+        
+        let html_data="";
+        for(let usr of datas){
+            if(usr.completed==true){
+        html_data+=`<tr><td>${usr.userId}</td><td>${usr.id}</td><td>${usr.title}</td><td>${usr.completed}</td></tr>`
+        }
+    }
+        document.querySelector(".result").innerHTML=html_data
+    }
+
+
+    var req=new XMLHttpRequest()
+    req.open("get","https://jsonplaceholder.typicode.com/todos")
+    req.send()
+    req.onreadystatechange=()=>{
+        if (req.readyState==4){
+            if(req.status>199 & req.status<300){
+                let datas=JSON.parse(req.responseText)
+                console.log(datas);
+                for(let i of datas){
+                console.log();
+                display(datas)
+                }
+            }
+            else{
+                alert("fail")
+            }
+        }
+    }
+
+
+
+</script>
+</html>
